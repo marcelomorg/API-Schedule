@@ -1,6 +1,9 @@
 <?php
 require_once('../config/DriveConnection.php');
-$array = [
-    "error"=> "",
-    "result"=>[""]
-];
+
+include_once('../controllers/Ping.php');
+
+// $array = [
+//     "error"=> "",
+//     "result"=>[""]
+// ];
