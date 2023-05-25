@@ -1,9 +1,3 @@
 <?php
-require_once('../config/DriveConnection.php');
-
-include_once('../controllers/Ping.php');
-
-// $array = [
-//     "error"=> "",
-//     "result"=>[""]
-// ];
+require_once('../config/database/DriveConnection.php');
+require_once('../config/AcessControlAllow.php');

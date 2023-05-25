@@ -1,5 +1,6 @@
 <?php
 require_once('../config/ReturnHeader.php');
+require_once('../config/ReturnClasses.php');
 
 class Index{
 
@@ -24,9 +25,12 @@ class Index{
         }
     }
     
-}
+};
 
-require_once('../config/ReturnFooter.php');
+$seed = new Seed($pdo);
+$seed->dropSeeders();
+$seed->executeSeeders();
+
 
 $index = new Index();
 echo json_encode($index::$result);
