@@ -10,7 +10,7 @@ class Person{
 
 
     function __construct(){
-
+        //
     }
 
     public function getId():int{

@@ -13,6 +13,7 @@ class Seed{
 
         $seederTables = [$n1];
         $seederColumns =[];
+        
         $cont = 0;
         while($cont < 10){
             array_push($seederColumns, $this->columnsPersons());

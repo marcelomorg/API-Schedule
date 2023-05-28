@@ -6,9 +6,7 @@ class Ping{
 
        return $array = [
             "erro"=>"",        
-            "result"=>[
-                "pong"=>"true"
-            ]
+            "result"=>"pong"
         ];
     }
 
